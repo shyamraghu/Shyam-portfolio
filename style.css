@@ -394,7 +394,8 @@ nav {
 
 
 @media only screen and (max-width:958px) {
-  .youtube_type_nav {
+ .youtube_type_nav {
+    font-size: small;
     display: flex;
     position: sticky;
     height: 58px;
@@ -402,11 +403,13 @@ nav {
     top: 36.8rem;
     justify-content: space-around;
     align-items: center;
+    border: 1px solid rgb(140 61 255);
+    border-radius: 4rem;
 
   }
 
   .footer {
-    padding-bottom: 15rem;
+    padding-bottom: 10rem;
   }
 
   .youtube_type_nav li a {
