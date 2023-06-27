@@ -258,7 +258,19 @@ nav {
 }
 
 .project_link a {
+  text-decoration: none;
   color: rgb(140 61 255);
+}
+
+.project_link{
+  display: block;
+    margin: auto;
+    padding: 8px;
+    margin-top: 39pxp;
+    margin-top: 12px;
+    border-radius: 8px;
+    outline: none;
+    border: 1px solid rgb(140 61 255);
 }
 
 .project_container div {
